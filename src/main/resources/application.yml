@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testdb
+    username: root
+    password: Irisviel95
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: nefaryan.devmail@gmail.com
+    password: bqpclgkdxgnwsjwa
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
